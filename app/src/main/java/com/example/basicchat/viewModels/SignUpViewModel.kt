@@ -2,8 +2,9 @@ package com.example.basicchat.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.basicchat.models.AuthRepository
+//import com.example.basicchat.models.AuthRepository
 import com.example.basicchat.models.AuthUiState
+import com.example.basicchat.models.repository.AuthRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

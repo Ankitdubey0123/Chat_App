@@ -56,12 +56,15 @@ dependencies {
     implementation(libs.androidx.credentials.play.services.auth)
     implementation(libs.googleid)
     implementation(libs.google.auth)
-
+    implementation("io.coil-kt:coil-compose:2.7.0") // Compose version
+    implementation("com.cloudinary:cloudinary-android:3.1.2")
     implementation(libs.firebase.database)
     implementation(libs.firebase.storage)
     implementation(libs.material3)
     implementation(libs.firebase.firestore.ktx)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.compose.foundation)
+    implementation(libs.androidx.compose.runtime)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
